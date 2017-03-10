@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # סטאק ג'אווה סקריפט מאפס
 
 [![Build Status](https://travis-ci.org/verekia/js-stack-from-scratch.svg?branch=master)](https://travis-ci.org/verekia/js-stack-from-scratch)
@@ -79,3 +81,4 @@ Check out the [ongoing translations](https://github.com/verekia/js-stack-from-sc
 Created by [@verekia](https://twitter.com/verekia) – [verekia.com](http://verekia.com/).
 
 License: MIT
+</div>
