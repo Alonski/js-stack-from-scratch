@@ -8,23 +8,23 @@
 [![Dev Dependencies](https://img.shields.io/david/dev/verekia/js-stack-boilerplate.svg?style=flat-square)](https://david-dm.org/verekia/js-stack-boilerplate?type=dev)
 [![Join the chat at https://gitter.im/js-stack-from-scratch/Lobby](https://badges.gitter.im/js-stack-from-scratch/Lobby.svg)](https://gitter.im/js-stack-from-scratch/Lobby)
 
-[![React](/img/react-padded-90.png)](https://facebook.github.io/react/)
-[![Redux](/img/redux-padded-90.png)](http://redux.js.org/)
-[![React Router](/img/react-router-padded-90.png)](https://github.com/ReactTraining/react-router)
-[![Flow](/img/flow-padded-90.png)](https://flowtype.org/)
+[![ריאקט](/img/react-padded-90.png)](https://facebook.github.io/react/)
+[![רידאקס](/img/redux-padded-90.png)](http://redux.js.org/)
+[![ריאקט ראוטר](/img/react-router-padded-90.png)](https://github.com/ReactTraining/react-router)
+[![פלו](/img/flow-padded-90.png)](https://flowtype.org/)
 [![ESLint](/img/eslint-padded-90.png)](http://eslint.org/)
-[![Jest](/img/jest-padded-90.png)](https://facebook.github.io/jest/)
-[![Yarn](/img/yarn-padded-90.png)](https://yarnpkg.com/)
-[![Webpack](/img/webpack-padded-90.png)](https://webpack.github.io/)
-[![Bootstrap](/img/bootstrap-padded-90.png)](http://getbootstrap.com/)
+[![גסט](/img/jest-padded-90.png)](https://facebook.github.io/jest/)
+[![יארן](/img/yarn-padded-90.png)](https://yarnpkg.com/)
+[![וובפאק](/img/webpack-padded-90.png)](https://webpack.github.io/)
+[![בוטסראפ](/img/bootstrap-padded-90.png)](http://getbootstrap.com/)
 
 ברוכים הבאים למדריך המודרני שלי לבניית סטאק ג'אווה סקריפט:  **סטאק ג'אווה סקריפט מאפס**
 
 > 🎉 **זו גרסה 2 של המדריך, קיימים שינויים משמעותיים מאז גרסת 2016 [שינויים](/CHANGELOG.md)**
 
-This is a straight-to-the-point guide to assembling a JavaScript stack. It requires some general programming knowledge, and JavaScript basics. **It focuses on wiring tools together** and giving you the **simplest possible example** for each tool. You can see this tutorial as *a way to write your own boilerplate from scratch*. Since the goal of this tutorial is to assemble various tools, I do not go into details about how these tools work individually. Refer to their documentation or find other tutorials if you want to acquire deeper knowledge in them.
+זה מדריך ישר ולעניין להרכבת סטאק ג'אווה סקריפט. המדריך דורש ידע כללי בתכנות, וידע בסיסי בג'אווה סקריפט. **המדריך מתמקד בחיבור של כלים ביחד** ביחד עם **הדוגמה הפשוטה ביותר** לכל כלי. אפשר לחשוב על המדריך הזה כ*דרך לכתיבת בוילרפלייט משלכם מאפס*. מכיוון שמטרתה של המדריך הוא הרכבה של כמה וכמה כלים שונים, אני לא יכנס לפרטי פרטים לגבי איך שכל כלי עובד בפני עצמו. נע לגשת לדוקומנטציה ש כל כלי או להסתכת על מדריכים אחרים בשביל לקבל ידע נרחב יותר עליהם.
 
-You don't need to use this entire stack if you build a simple web page with a few JS interactions of course (a combination of Browserify/Webpack + Babel + jQuery is enough to be able to write ES6 code in different files), but if you want to build a web app that scales, and need help setting things up, this tutorial will work great for you.
+כמובן שאינכם צריכים להשתמש בכל הסטאק הזה בשביל לבנות אתר ווב פשוט עם קצת ג'אווה סקריפט (שילוב של ברווסרייי או וובפאק + בבל + גייקויירי זה פספיק בשביל לכתוב ES6 בקבצים שונים) אבל אם אתם רוצים לבנות אפליקציית ווב סקיילבילית, וצריכים קצת עזרה בהרכבתה, אז המדריך הזה יעשה את העבודה מעולה בשבילכם.
 
 A big chunk of the stack described in this tutorial uses React. If you are beginning and just want to learn React, [create-react-app](https://github.com/facebookincubator/create-react-app) will get you up and running with a React environment very quickly with a pre-made configuration. I would for instance recommend this approach to someone who arrives in a team that's using React and needs to catch up with a learning playground. In this tutorial you won't use a pre-made configuration, because I want you to understand everything that's happening under the hood.
 
