@@ -1,4 +1,3 @@
-<div dir="rtl">
 
 # סטאק ג'אווה סקריפט מאפס
 
@@ -81,4 +80,3 @@ Check out the [ongoing translations](https://github.com/verekia/js-stack-from-sc
 Created by [@verekia](https://twitter.com/verekia) – [verekia.com](http://verekia.com/).
 
 License: MIT
-</div>
