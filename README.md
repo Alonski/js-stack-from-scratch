@@ -25,6 +25,8 @@
 
 כמובן שאינכם צריכים להשתמש בכל הסטאק הזה בשביל לבנות אתר ווב פשוט עם קצת ג'אווה סקריפט (שילוב של ברווסרייי או וובפאק + בבל + גייקויירי זה פספיק בשביל לכתוב ES6 בקבצים שונים) אבל אם אתם רוצים לבנות אפליקציית ווב סקיילבילית, וצריכים קצת עזרה בהרכבתה, אז המדריך הזה יעשה את העבודה מעולה בשבילכם.
 
+חלק גדול של הסטאק המדובר במדריך אינו בריאקט.
+
 A big chunk of the stack described in this tutorial uses React. If you are beginning and just want to learn React, [create-react-app](https://github.com/facebookincubator/create-react-app) will get you up and running with a React environment very quickly with a pre-made configuration. I would for instance recommend this approach to someone who arrives in a team that's using React and needs to catch up with a learning playground. In this tutorial you won't use a pre-made configuration, because I want you to understand everything that's happening under the hood.
 
 Code examples are available for each chapter, and you can run them all with `yarn && yarn start`. I recommend writing everything from scratch yourself by following the **step-by-step instructions** though.
